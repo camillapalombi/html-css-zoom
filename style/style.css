@@ -17,6 +17,7 @@ body {
     position: relative;
 }
 
+/*MAIN*/
 main {
     width: 90%;
     margin: auto;
@@ -49,7 +50,6 @@ main {
 .container-zoom-users {
     width: 16%;
     height: 120px;
-    background-color: hotpink;
     position: relative;
     margin-top: 20px;
 }
@@ -71,4 +71,58 @@ main {
 
 .fa-microphone-slash {
     padding-right: .3em;
+}
+
+
+/*FOOTER*/
+footer {
+    width: 100%;
+    height: 5.2rem;
+    background-color: rgb(36, 36, 36);
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.container-row-left , .container-row-center ,
+.container-row-right {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.container-mute {
+    margin-left: 1em;
+}
+
+.fa-angle-up {
+    font-size: 10px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+footer i {
+    font-size: 22px;
+}
+
+.container-row-right {
+    color: red;
+    background-color: rgba(88, 88, 88, 0.5);
+    padding:  2em;
+}
+
+.container-row-center > div {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.fa-share-square {
+    color: rgb(9, 241, 9);
 }
